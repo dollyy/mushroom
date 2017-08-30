@@ -1,0 +1,163 @@
+@CHARSET "UTF-8";
+/* 登陆,注册 */
+.log_bg,.reg_bg{
+	position: fixed;
+	z-index: 4;
+}
+.logos{
+	width: 100%;
+	height: 150px;
+}
+.logo{
+	width: 220px;
+	height: 120px;
+	background: url("../imgs/index/logo.png");
+	margin-top: 30px;
+	margin-left: 161px;
+	float: left;
+}
+.l_search{
+	float: left;
+	margin-top: 30px;
+	position:relative;
+	left: 190px;
+	z-index: 2;
+}
+
+article{
+	width: 100%;
+	height: 800px;
+	background: #fafafa;
+	position: relative;
+	top: 20px;
+}
+
+.imgbg{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 15%;
+	top: 50%;
+	margin-top: -300px;
+}
+
+.img{
+	width: 300px;
+	height: 300px;
+}
+
+.intruction{
+	font-size: 26px;
+	position: absolute;
+	left: 620px;
+	top:15%;
+}
+
+.name{
+	font-size: 22px;
+	position: absolute;
+	left: 620px;
+	top: 22%;
+}
+
+.nm{
+	font-size: 22px;
+	position: absolute;
+	left: 680px;
+	top: 22%;
+	
+}
+
+.price{
+	font-size: 22px;
+	position: absolute;
+	left: 620px;
+	top: 29%;
+}
+.tips{
+	width: 200px;
+	height: 100px;
+	position: fixed;
+	top: 24%;
+	left: 50%;
+	margin-left: -100px;
+	background: #fff;
+	border: 1px solid #00728a;
+	z-index: 1;
+	text-align: center;
+	line-height: 100px;
+	display: none;
+}
+.money,.money2{
+	font-size: 28px;
+	color: red;
+	position: absolute;
+	left: 680px;
+	top: 28.5%;s
+}
+.money{
+	left: 705px;
+}
+.sale{
+	font-size: 22px;
+	position: absolute;
+	left: 620px;
+	top: 35%;
+}
+
+
+.sales{
+	font-size: 22px;
+	position: absolute;
+	left: 680px;
+	top: 35%;
+}
+
+.num{
+	position: absolute;
+	left: 620px;
+	top: 42%;
+	width: 50px;
+	height: 20px;
+}
+
+.addcart{
+	width: 30px;
+	height: 25px;
+	background:url("../imgs/category/addcart.png");
+	float:right;
+	cursor: pointer;
+	position: relative;
+	top: 41.5%;
+	left: -650px;
+}
+
+.lists{
+	width: 100%;
+	height: 330px;
+	background: #fff;
+	position: absolute;
+	top: 65%;
+	padding-top: 20px;
+}
+
+.m_like{
+	font-size: 25px;
+	margin-left: 40px;
+}
+
+.m_box{
+	text-align: center;
+	width: 278px;
+	height: 230px;
+	background: lightblue;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 60px;
+	border-radius: 20px;
+}
+
+.m_pic{
+	width: 180px;
+	height: 180px;
+}

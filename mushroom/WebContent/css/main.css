@@ -1,0 +1,233 @@
+/* 登陆,注册 */
+.log_bg,.reg_bg{
+	position: fixed;
+	z-index: 4;
+}
+.logos{
+	width: 100%;
+	height: 150px;
+}
+.logo{
+	width: 220px;
+	height: 120px;
+	background: url("../imgs/index/logo.png");
+	margin-top: 30px;
+	margin-left: 161px;
+	float: left;
+}
+.l_search{
+	float: left;
+	margin-top: 30px;
+	position:relative;
+}
+
+/*========================身体article===============================*/
+article{
+	width: 100%;
+	height: 400px; 
+	background-image: url("../imgs/bg.jpg");
+}
+.at{
+	width: 1180px;
+	height: 400px;
+	position: relative;
+	left:10%;
+}
+
+.a_box1{
+	display: inline-block;
+	width: 220px;
+	height: 400px;
+	position: relative;
+	top: -20px;
+}
+
+.a_box1 ul li{
+	list-style: none;
+	width: 220px;
+	height: 50px;
+	background: #ff5c4d;
+	cursor: pointer;
+	text-align: center;
+	line-height: 280%;
+	font-size: 17px;
+}
+.a_box1 ul li a{
+	color: #fff;
+}
+.pink1{
+	background-color: pink;
+}
+
+.a_box2{
+	display: inline-block;
+	width: 820px;
+	height: 400px;
+	position: relative;
+	left: -5px;
+	top: 0;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.a_box3{
+	display: inline-block;
+	width: 220px;
+	height: 400px;
+	position: relative;
+	left: -16px;
+	top: 0px;
+}
+
+.a_box45{
+	width: 910px;
+	height: 400px;
+	position: absolute;
+	left:238px;
+	top: 0;
+}
+
+.a_box4{
+	display: none;
+	background-color: #fff;
+	width: 690px;
+	height: 398px;
+	position: relative;
+	left: -19px;
+	top: 0;
+	border-top: 2px solid #ff5c4d;
+	border-right: 1px solid #999;
+}
+
+/*=========son样式=========  */
+.a_box5{
+	display: inline-block;
+	width: 220px;
+	height: 398px;
+	background: white;
+	position: absolute;
+	left: 672px;
+	top: 0;s
+	border-top: 2px solid #ff5c4d;
+	display: none;
+}
+
+.timg1, .timg2{
+	width: 100px;
+	height: 100px;
+	border-radius: 2px;
+}
+
+
+
+/*===============轮播图片的样式=============*/
+.imgcolor, .pic{
+	width: 820px;
+	height: 400px;
+}
+
+.ppt_per{
+	width: 3480px;
+	height: 400px;
+	position: relative;
+	left: 0;
+    top: 0;
+}
+
+.pic{
+    float: left;
+}
+.left{
+    width: 30px;
+    height: 60px;
+    background: black;
+    opacity: 0.2;
+    position: absolute;
+    left:0px;
+    top:150px;
+}
+
+.right{
+    width: 30px;
+    height: 60px;
+    background: black;
+    opacity: 0.2;
+    position: absolute;
+    right:0px;
+    top:150px;
+}
+
+.left:hover, .right:hover{
+    opacity: 0.4;
+}
+
+.selects{
+    width: 120px;
+    height:20px;
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    bottom: 0;
+}
+
+.cc{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: grey;
+    float: left;
+    margin: 0 10px;
+}
+
+.cc.h{
+    background: orange;
+}
+
+/*==================推荐部分=======================*/
+.msg2{
+	width: 90%;
+	background: #fafafa;
+	position: relative;
+	left: 5%;
+	top: 10px;
+	padding-bottom: 20px;
+	border-top: 2px solid #ff5c4d;
+}
+.m_m{
+	display:inline-block;
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	position: relative;
+	line-height: 50px;
+	text-align: center;
+	color: #ff5c4d;
+}
+.intru{
+	width: 90%;
+	position: relative;
+	left: 5%;
+}
+
+.m_box{
+	text-align: center;
+	width: 265px;
+	display: inline-block;
+	margin: 20px 0;
+	color: #28292b;
+}
+.m_t{
+	width: 200px;
+	height: 40px;
+	display: inline-block;
+	line-height: 40px;
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+.m_pic{
+	width: 180px;
+	height: 180px;
+	border-radius: 90px;
+	border: 1px solid #999;
+	margin-bottom: 10px;
+}

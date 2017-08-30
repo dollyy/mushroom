@@ -1,0 +1,350 @@
+.logos{
+	width: 100%;
+	height: 150px;
+    background-color:#FBF1EC;
+}
+.logo{
+	width: 220px;
+	height: 120px;
+	background: url("../imgs/index/logo.png");
+	margin-top: 30px;
+	margin-left: 120px;
+	float: left;
+}
+/* ��½,ע�� */
+.log_bg,.reg_bg{
+	position: fixed;
+	z-index: 2;
+}
+.bodya{
+    width: auto;
+    height: 1100px;
+    background-color:#FBF1EC;
+}
+
+.title{
+    margin-top: 10px;
+}
+
+.title span{
+    font: 35px Microsoft YaHei;
+    color: white;
+    margin-left: 220px;
+}
+
+/*主体部分*/
+.bodyb{
+    width: 80%;
+    height: 1000px;
+    background-color:#F8E7DE;
+    margin-left: 10%;
+}
+
+.bodyc{
+    width: 15%;
+    height: 1000px;
+    background-color:#E7B097;
+    margin-left: 0;
+}
+
+.bodyd{
+    width: 85%;
+    height: 999px;
+    margin-top: -1000px;
+    float: right;
+}
+
+/*左侧边栏*/
+.bodyd .title{
+    width: 64.3%;
+    height: 60px;
+    position: absolute;
+    left: 21.9%;
+    padding-left: 50px;
+    font-size: 30px;
+    border-bottom: solid 1px #CB1F1D;
+}
+
+.title2{
+    width: 64.3%;
+    height: 40px;
+    position: absolute;
+    top: 255px;
+    left: 21.9%;
+    padding-left: 50px;
+    font-size: 20px;
+    border-bottom: solid 1px #CB1F1D;
+}
+
+.ziliao{
+    color: #CB1F1D;
+}
+
+.touxiang{
+    padding-left: 50px;
+    color: #CB1F1D;
+}
+
+.ziliao:hover{
+    color: #563222;
+}
+
+.touxiang:hover{
+    color: #563222;
+}
+
+.dqtouxiang{
+    width: 64.3%;
+    height: 140px;
+    position: relative;
+    top: 122px;
+    left: 0;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.dqtouxiang span{
+    position: relative;
+    top: -50px;
+    left: 0;
+    font-size: 16px;
+}
+
+.dqtouxiang img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 25px;
+    left: 30px;
+    border: solid 1px #CB1F1D;
+}
+
+.nicheng{
+    width: 64.3%;
+    height: 80px;
+    position: relative;
+    top: 150px;
+    left: 0;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.nicheng span{
+    position: relative;
+    top: 0;
+    left: -12px;
+    font-size: 16px;
+}
+
+.nicheng input{
+    position: relative;
+    top: 0px;
+    left: 38px;
+    width: 250px;
+}
+
+.xingbie{
+    width: 64.3%;
+    height: 80px;
+    position: relative;
+    top: 150px;
+    left: 0;
+    padding-left: 50px;
+    font-size: 20px;
+    font-size: 16px;
+}
+
+.xingbie form{
+    position: relative;
+    top: -25px;
+    left: 104px;
+}
+
+.man{
+    position: relative;
+    top: 0;
+    left: 0; 
+}
+
+.woman{
+    position: relative;
+    top: -20px;
+    left: 120px;
+}
+
+.nogender{
+    position: relative;
+    top: -40px;
+    left: 240px;
+}
+
+.shengri{
+    width: 64.3%;
+    height: 80px;
+    position: relative;
+    top: 150px;
+    left: 0;
+    padding-left: 50px;
+    font-size: 20px;
+    font-size: 16px;
+}
+
+.shengri input{
+    position: relative;
+    top: 0px;
+    left: 55px;
+    width: 150px;
+}
+
+.jiaxiang{
+    width: 64.3%;
+    height: 80px;
+    position: relative;
+    top: 150px;
+    left: 0;
+    padding-left: 50px;
+    font-size: 20px;
+    font-size: 16px;
+}
+
+.jiaxiang input{
+    position: relative;
+    top: 0px;
+    left: 55px;
+    width: 250px;
+}
+
+.juzhudizhi{
+    width: 64.3%;
+    height: 80px;
+    position: relative;
+    top: 150px;
+    left: 0;
+    padding-left: 50px;
+    font-size: 20px;
+    font-size: 16px;
+}
+
+.juzhudizhi input{
+    position: relative;
+    top: 0px;
+    left: 25px;
+    width: 250px;
+}
+
+.xiugai{
+    width: 64.3%;
+    height: 45px;
+    position: relative;
+    top: 160px;
+    left: 0;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.xiugai input{
+    width: 100px;
+    height: 40px;
+}
+
+/*右侧边栏*/
+.bodyc img{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: 15px;
+    left: 19px;
+    border: solid 1px #CB1F1D;
+}
+
+.zhgl{
+    position: relative;
+    top: 20px;
+    left: 38px;
+    font-size: 20px;
+    font-weight:600;
+}
+
+.grzl{
+    position: relative;
+    top: 30px;
+    left: 52px;
+}
+
+.shdz{
+    position: relative;
+    top: 40px;
+    left: 52px;
+}
+
+.grzl a:hover{
+    color: #CB1F1D;
+}
+
+.shdz a:hover{
+    color: #CB1F1D;
+}
+
+.cc{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #CB1F1D;
+}
+
+
+#c1{
+    position: relative;
+    top: 13px;
+    left: -15px;
+}
+
+#c2{
+    position: relative;
+    top: 13px;
+    left: -15px;
+}
+
+/*版权信息*/
+.footer{
+    background-color: #FBF1EC/*url(../images/head.svg)*/;
+    width: auto;
+    height: 70px;
+}
+
+.footer a:hover{
+    color: #CB1F1D;
+}
+
+.footer-con{
+    font-size: 12.5px;
+    margin-left: 300px;
+}
+
+.footer-one{
+    padding-top: 10px;
+    margin-left: 80px;
+}
+
+.footer-two{
+    margin-left: 150px;
+    padding-top:3px;
+}
+
+.ff{
+    padding-right:7px;
+    padding-left:5px;
+}
+
+.fff{
+    padding-right: 5px;
+}
+
+.banquan{
+    margin-left: 320px;
+    padding-top: 3px;
+}
+
+.banquan span{
+    color:darkgray;
+}

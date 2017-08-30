@@ -1,0 +1,184 @@
+.log_bg,.reg_bg{
+	position: absolute;
+	z-index: 4;
+}
+/* .mushroom{
+	width: 80%;
+	height: 100px;
+	background: red;
+	position: relative;
+	left: 10%;
+} */
+.logos{
+	width: 100%;
+	height: 150px;
+}
+.logo{
+	width: 220px;
+	height: 120px;
+	background: url("../imgs/index/logo.png");
+	margin-top: 30px;
+	margin-left: 161px;
+	float: left;
+}
+.l_search{
+	float: left;
+	margin-top: 30px;
+	position:relative;
+	left: 190px;
+	z-index: 2;
+}
+/* 选择收获地址 */
+.address{
+	width: 80%;
+	position: relative;
+	left: 10%;
+	background: lightgrey;
+}
+.a_title,.s_title{
+	width: 95%;
+	height: 70px;
+	line-height: 70px;
+	font-size: 18px;
+	position: relative;
+	left: 2.5%;
+}
+.a_more{
+	float: right;
+	font-size: 15px;
+	cursor: pointer;
+}
+.a_adds{
+	width: 100%;
+	position: relative;
+	padding-bottom: 15px;
+}
+.a_add{
+ 	width: 240px;
+	height: 120px;
+	border: 1px solid #00728a;
+	margin-left: 20px;
+	margin-bottom: 15px;
+	display: inline-block;
+	cursor: pointer;
+}
+.a_select{
+ 	width: 240px;
+	height: 120px;
+	border: 3px solid #00728a;
+}
+.a_uname{
+	float: left;
+	margin:5% 5%;
+}
+.a_uphone{
+	float: right;
+	margin:5% 5%;
+}
+.a_uadd{
+	width: 90%;
+	border-top: 1px solid black;
+	clear: both;
+	margin-left: 5%;
+	padding-top: 5%;
+}
+
+/* 确定订单 */
+.sure{
+	width: 80%;
+	position: relative;
+	left: 10%;
+	background: lightgrey;
+	padding-bottom: 20px;
+	border-top: 1px solid black;
+}
+ol{
+	width: 90%;
+	height: 50px;
+	margin-left: 5%;
+	list-style: none;
+	border-bottom: 3px solid #00728a;
+}
+.s_s{
+	display: inline;
+	line-height: 50px;
+	margin: 0 95px;
+}
+.s_pros{
+	width: 90%;
+	position: relative;
+	margin-left: 5%;
+}
+.s_pro{
+	width: 100%;
+	height: 140px;
+	background: #fafafa;
+	position: relative;
+	border-bottom: 1px solid black;
+}
+.s_pic{
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin-top: 35px;
+	margin-left: 35px;
+}
+.s_msg{
+	width: 80%;
+	height: 50px;
+	float: left;
+	margin-top: 45px;
+	margin-left: 10px;
+	/* background: red; */
+	line-height: 50px;
+}
+.s_des,.s_priicon,.s_pri,.s_num,.s_sum{
+	float: left;
+}
+.s_des{
+	width: 150px;
+}
+.s_priicon{
+	margin-left: 80px;
+}
+.s_num,.s_sum{
+	margin-left: 210px;
+}
+.pay{
+	width: 90%;
+	height: 120px;
+	position: relative;
+	margin-top: 20px;
+	margin-left: 5%;
+	background: #fafafa;
+	text-align: left;
+	font-size: 17px;
+	padding-top: 5px;
+}
+.p_sum,.p_add,.p_phone{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#p_add,#p_name,#p_phone{
+	font-size: 17px;
+	border: none;
+}
+#p_add{
+	width: 400px;
+}
+.sub{
+	width: 240px;
+	height: 50px;
+	position: absolute;
+	top: 35px;
+	right: 20px;
+	display: inline-block;
+	background: #00728a;
+	border-radius:5px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 17px;
+	color: #fff;
+	cursor: pointer;
+	border: none;
+}

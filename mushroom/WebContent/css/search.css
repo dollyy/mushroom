@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+
+.onmouset_out{
+	width: 500px;
+	background-color: #fafafa;
+	padding: 2px 6px 2px 6px;
+	font-size: 16px;
+	cursor: pointer;
+	}
+	
+.onmouset_over{
+	width: 500px;
+	background-color: #99CCFF;
+	padding: 2px 6px 2px 6px;
+	font-size: 16px;
+	cursor: pointer;
+	}
+
+.search1{
+	width: 500px;
+	height: 30px;
+	border: 2px solid #ff5c4d;
+	float: left;
+	padding-left: 10px;
+	font-size: 16px;
+}
+.submit1{
+	width: 80px;
+	height: 34px;
+	border: none;
+	float: left;
+	cursor: pointer;
+	background: #ff5c4d;
+	color: #fff;
+	font-size: 16px;
+}
+.ui-widget{
+ 	margin-left: 90px;
+	margin-top: 43px; 
+}

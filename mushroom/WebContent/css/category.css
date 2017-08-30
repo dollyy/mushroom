@@ -1,0 +1,206 @@
+.logos{
+	width: 100%;
+	height: 150px;
+}
+.logo{
+	width: 220px;
+	height: 120px;
+	background: url("../imgs/index/logo.png");
+	margin-top: 30px;
+	margin-left: 161px;
+	float: left;
+}
+.l_search{
+	float: left;
+	margin-top: 30px;
+	position:relative;
+	left: 190px;
+	z-index: 2;
+}
+/* 分类导航 */
+.catenav{
+	width: 55px;
+	height: 100%;
+	background: #3f3c3c;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.catenav a{
+	color: #fff;
+}
+.catenav ol{
+	height: 240px;
+	position: absolute;
+	left: 0;
+	top: 150px;
+	color: #fff;
+	display: block;
+}
+.catenav ol li{
+	width: 55px;
+	height: 30px;
+	font-size: 13px;
+	list-style: none;
+	margin-bottom: 30px;
+	text-align: center;
+	cursor: pointer;
+	line-height: 30px;
+}
+.libg{
+	background: #ff5c4d;
+}
+.cart,.feedback,.back{
+	cursor: pointer;
+}
+.cart{
+	width: 50px;
+	height: 25px;
+	position: absolute;
+	top: 400px;
+	text-align: center;
+}
+.feedback{
+	width: 50px;
+	height: 25px;
+	position: absolute;
+	top: 470px;
+	text-align: center;
+}
+.back{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 10px;
+	bottom:30px;
+}
+.backtop{
+	font-size: 12px;
+	color: #ff5c4d;
+	position: absolute;
+	bottom: 63px;
+	left: 12px;
+}
+.cart_w,.feed{
+	width: 60px;
+	height: 30px;
+	font-size: 13px;
+	background: #ff5c4d;
+	color: #fff;
+	position: absolute;
+	line-height: 30px;
+	text-align: center;
+	padding-left: 50px;
+}
+.cart_w{
+	top: 397px;
+}
+.feed{
+	top: 466px;
+}
+
+/* 分类 */
+.tipss{
+	width: 200px;
+	height: 100px;
+	position: fixed;
+	top: 25%;
+	left: 50%;
+	margin-left: -100px;
+	background: #fff;
+	border: 1px solid #00728a;
+	z-index: 2;
+	text-align: center;
+	line-height: 100px;
+	display: none;
+}
+.cate{
+	width: 80%;
+	position: absolute;
+	/* top: 146px; */
+	left: 10%;
+	z-index: 1;
+}
+.p{
+	width: 100%;
+	height: 700px;
+	background: #f2f2f2;
+	border-top: 1px solid black;
+	position: relative;
+}
+.p_head{
+	width: 200px;
+	height: 100px;
+	position: relative;
+	left: 50%;
+	margin-left: -100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 20px;
+}
+.pro{
+	width: 100%;
+	height: 300px;
+	position: relative;
+}
+.pros{
+	width: 220px;
+	height: 260px;
+	float: left;
+	text-align: center;
+	margin-left: 4%;
+}
+.pros a{
+	color: #181818;
+}
+.pic{
+	width: 200px;
+	height: 180px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	display: inline-block;
+	float: left;
+}
+.pic img{
+	width: 200px;
+	height: 180px;
+	border-radius: 15px;
+}
+.msgs{
+	width: 200px;
+	height: 30px;
+	margin-left: 10px;
+	line-height: 30px;
+	margin-top: 5px;
+}
+.msgs a{
+	width: 200px;
+	display: inline-block;
+}
+.price,.icon{
+	float:left;
+	font-size: 17px;
+	font-weight: bold;
+	color: #de3525;
+}
+.num{
+	width: 60px;
+	height: 20px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 5px;
+	border: none;
+}
+.addcart{
+	width: 30px;
+	height: 25px;
+	background:url("../imgs/category/addcart.png");
+	float:right;
+	cursor: pointer;
+}
+/* 登陆,注册 */
+.log_bg,.reg_bg{
+	position: fixed;
+	z-index: 4;
+}

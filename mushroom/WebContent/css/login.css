@@ -1,0 +1,174 @@
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.forget a{
+    color: #fff;
+}
+.close{
+	width: 25px;
+	height: 25px;
+	background: url("../imgs/index/close.png");
+	position: absolute;
+	top: 40px;
+	left: 30px;
+	cursor: pointer;
+}
+.close:HOVER{
+	-moz-transform: scale(1.1);
+}
+.log_bg{
+    width: 400px;
+    height: 485px;
+    background: url(../imgs/index/login_bg.png);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -242.5px;
+    margin-left: -200px;
+}
+.reg{
+    width: 70px;
+    height: 25px;
+    font-size: 20px;
+    position: absolute;
+    top: 8%;
+    right: 8%;
+    color: #fff;
+}
+.reg:hover{
+    color: red;
+}
+.username,.password{
+    width: 260px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    margin-left: -130px;
+    border-radius: 5px;
+    background: #e4e4e4;
+}
+.username{
+    top: 100px;
+}
+.password{
+    top: 165px;
+}
+.userpic,.pwdpic{
+    width: 20px;
+    height: 20px;
+    float: left;
+    background: blue;
+    margin-top: 7.5px;
+    margin-left: 10px;
+    
+}
+#log_user,#log_pwd{
+    width: 202px;
+    height: 25px;
+    margin-left: 7px;
+    margin-top: 5px;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+}
+.uwarn,.pwarn,.cwarn{
+    position: absolute;
+    left: 20%;
+    color: red;
+    display: none;
+}
+.uwarn{
+    top: 140px;
+}
+.pwarn{
+    top: 205px;
+}
+.error{
+    display: inline;
+}
+.codeinput{
+	width: 130px;
+	height: 30px;
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: -130px;
+    border-radius: 5px;
+    background: #e4e4e4;
+    padding-left: 10px;
+}
+.code{
+	height: 30px;
+	width: 103px;
+    position: absolute;
+    top: 230px;
+    left: 55%;
+    background: url("../imgs/index/code.jpg");
+}
+.codepic{
+	width: 60px;
+    line-height: 30px;
+    margin-left: 5px;
+    font-size: 17px;
+    color: #00728a;
+    float: left;
+}
+.refresh{
+	width: 20px;
+	height:20px;
+	margin-top: 5px;
+	margin-left: 10px;
+	float: left;
+	background: url("../imgs/index/refresh.png");
+	border: none;
+	cursor: pointer;
+}
+.cwarn{
+	top: 265px;
+}
+.ope{
+    width: 260px;
+    height: 25px;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    margin-left: -130px;
+    color: #fff;
+    font-size: 19px;
+}
+#rem{
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.forget{
+    float: right;
+}
+.forget a:hover{
+    color: red;
+}
+#logbtn{
+    width: 66px;
+    height: 35px;
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    margin-left: -33px;
+    font-size: 22px;
+    cursor: pointer;
+    outline: none;
+}
+#logbtn:hover{
+    font-size: 25px;
+}

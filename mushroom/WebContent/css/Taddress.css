@@ -1,0 +1,142 @@
+@CHARSET "UTF-8";
+
+/* 已有购物车 */
+.hasadd{
+	font-size: 22px;
+}
+
+
+.add_box{
+	position: relative;
+	top: 130px;
+	left: 20px;
+}
+
+.adds{
+	width: 520px;
+	height: 50px;
+	border: 1px solid grey;
+	display: inline;
+}
+
+.remove{
+	
+}
+
+
+/* 添加购物车 */
+.add{
+	font-size: 25px;
+	position: relative;
+	top: 150px;
+	left: 20px;
+}
+
+.login-textbox{
+	position: relative;
+	left: 40px;
+	top: 180px;
+}
+
+.province{
+	position: relative;
+	top: 0px;
+	left: 20px;
+	font-size: 18px;
+}
+
+.select_province{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+
+/* .city{
+	position: relative;
+	top: -55px;
+	left: 420px;
+	font-size: 18px;
+} */
+
+.select_city{
+	/* position: relative;
+	top: 60px; 
+	left: 20px; */
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.select{
+	width: 180px;
+}
+
+.detailadd{
+	position: relative;
+	top: 210px;
+	left: 60px;	
+	font-size: 18px;
+}
+
+.area{
+	position: relative;
+	left: 60px;
+	top: 220px;
+	width: 400px;
+	height: 50px;
+}
+
+.recvname{
+	position: relative;
+	left: 60px;
+	top: 230px;
+	font-size: 18px;
+}
+
+.inputname{
+	position: relative;
+	left: 60px;
+	top: 240px;
+	width: 180px;
+	height: 22px;/* 
+	border: 1px solid black; */
+}
+
+.w{
+	position: relative;
+	left: 60px;
+	top: 245px;
+	color: red;
+}
+
+.recvtel{
+	position: relative;
+	left: 60px;
+	top: 260px;
+	font-size: 18px;
+}
+
+.inputtel{
+	position: relative;
+	left: 60px;
+	top: 270px;
+	width: 180px;
+	height: 22px;
+}
+
+.w1{
+	position: relative;
+	left: 60px;
+	top: 275px;
+	color: red;
+}
+
+.submit{
+	position: relative;
+	top: 320px;
+	left: -135px;
+	width: 180px;
+	height: 30px;
+	background-color: #E7B097;
+	border: none;
+	font-size: 18px;
+}

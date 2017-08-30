@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Microsoft Yahei;
+}
+html,body{
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.close{
+	width: 25px;
+	height: 25px;
+	background: url("../imgs/index/close.png");
+	position: absolute;
+	top: 40px;
+	left: 30px;
+	cursor: pointer;
+}
+.close:HOVER{
+	-moz-transform: scale(1.1);
+}
+/* Í·²¿µ¼º½ */
+.head{
+	width: 100%;
+	height: 30px;
+	background: #fafafa;
+	position: relative;
+	border-bottom: 1px solid #dbdbdb;
+}
+.head a{
+	color: #000;
+	cursor: pointer;
+}
+.head a:HOVER{
+	color: #00728a;
+}
+a{
+	text-decoration: none;
+    cursor: pointer;
+}
+.switcher{
+	width: 90px;
+	height: 100%;
+	margin-left: 5%;
+	line-height: 30px;
+	float: left;
+	display: none;
+}
+.msg{
+	width: 270px;
+	height: 100%;
+	margin-right: 5%;
+	line-height: 30px;
+	float: right;
+}
+.fen{
+	cursor: pointer;
+}
+.fencode{
+	width: 100px;
+	height: 100px;
+	background: url("../imgs/index/fen.png");
+	display: block;
+	position: absolute;
+	top: 33px;
+	right: 4%;
+	z-index: 2;
+}
+.switcher2{
+	width: 240px;
+	height: 100%;
+	margin-left: 5%;
+	line-height: 30px;
+	float: left;
+	display: none;
+}
+.no{
+	display: none;
+}
+.in{
+	display: inline;
+}
+.bg{
+	width: 100%;
+	height: 100%;
+	background: #000;
+	position: fixed;
+	opacity:0.2;
+	z-index: 3;
+}

@@ -1,0 +1,67 @@
+/* logo,µ¼º½£¬ËÑË÷¿ò */
+.logo{
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	top: 45px;
+	left: 5%;
+	background: red;
+}
+.nav{
+	width: 500px;
+	height: 50px;
+	position: absolute;
+	top: 65px;
+	left: 25%;
+}
+ul{
+	list-style-type:none;
+}
+ul li{
+	width: 125px;
+	display: block;
+	float: left;
+	text-align: center;
+	font-size: 18px;
+	line-height: 50px;
+	cursor: pointer;
+}
+.search{
+	width: 400px;
+	height: 35px;
+	position: absolute;
+	top: 70px;
+	right: 5%;
+	border: 2px solid #00728a;
+}
+#content{
+	width: 310px;
+	height: 100%;
+	border: none;
+	float: left;
+	padding-left: 10px;
+	font-size: 16px;
+}
+#sbtn{
+	width: 80px;
+	height: 100%;
+	border: none;
+	float: left;
+	cursor: pointer;
+	background: #00728a;
+	color: #fff;
+	font-size: 16px;
+}
+/* ·ÖÀà,ÂÖ²¥Í¼Æ¬ */
+.pics{
+	width: 100%;
+	height: 350px;
+	background: pink;
+	position: absolute;
+	top: 145px;
+}
+/* µÇÂ½,×¢²á */
+.log_bg,.reg_bg{
+	position: fixed;
+	z-index: 4;
+}

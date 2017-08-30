@@ -1,0 +1,107 @@
+.reg_bg{
+    width: 400px;
+    height: 485px;
+    background: url(../imgs/index/register_bg.png);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -242.5px;
+    margin-left: -200px;
+}
+.log{
+    width: 70px;
+    height: 25px;
+    font-size: 20px;
+    position: absolute;
+    top: 8%;
+    right: 8%;
+    color: #fff;
+}
+.log:hover{
+    color: red;
+}
+.username,.password,#ans{
+    width: 260px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    margin-left: -130px;
+    border-radius: 5px;
+    background: #e4e4e4;
+}
+.username{
+    top: 85px;
+}
+.password{
+    top: 150px;
+}
+.userpic,.pwdpic{
+    width: 20px;
+    height: 20px;
+    float: left;
+    background: blue;
+    margin-top: 7.5px;
+    margin-left: 10px;
+    
+}
+#reg_user,#reg_pwd{
+    width: 202px;
+    height: 25px;
+    margin-left: 7px;
+    margin-top: 5px;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+}
+.uwarn,.pwarn,.awarn{
+    position: absolute;
+    left: 20%;
+    color: red;
+    display: none;
+}
+.uwarn{
+    top: 125px;
+}
+.pwarn{
+    top: 190px;
+}
+.error{
+    display: inline;
+}
+.q{
+	width: 260px;
+	height: 30px;
+	position: absolute;
+	top: 215px;
+	left: 50%;
+	margin-left: -130px;
+	font-size: 16px;
+	border: none;
+}
+#ans{
+    width: 250px;
+	top: 275px;
+	border: none;
+    font-size: 16px;
+    padding-left:10px; 
+}
+.awarn{
+	top: 315px;
+}
+#regbtn{
+    width: 66px;
+    height: 35px;
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    margin-left: -33px;
+    font-size: 22px;
+    cursor: pointer;
+    outline: none;
+}
+#regbtn:hover{
+    font-size: 25px;
+}
